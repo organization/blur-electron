@@ -1,0 +1,33 @@
+{
+  "name": "blur-electron",
+  "version": "1.0.0",
+  "description": "Mica, Acrylic, Blur, Vibrancy for Electron. Cross-platform supported. (Windows, Linux, macOS)",
+  "main": "dist/index.js",
+  "types": "./src/index.ts",
+  "exports": "./src/index.ts",
+  "repository": "github:organization/blur-electron",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "electron",
+    "blur",
+    "mica",
+    "acrylic",
+    "transparent",
+    "glasstron"
+  ],
+  "author": "JellyBrick",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/organization/blur-electron/issues"
+  },
+  "homepage": "https://github.com/organization/blur-electron#readme",
+  "devDependencies": {
+    "electron": "^25.2.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "mica-electron": "^1.4.7"
+  }
+}
